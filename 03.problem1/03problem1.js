@@ -13,7 +13,13 @@ for (let i = 5; i < 1000; i = i + 5) {
   sum2 = sum2 + i;
 }
 
-console.log(sum + sum2)
+let sum3 = 0;
+for (let i = 15; i < 1000; i = i + 15) {
+  sum3 = sum3 + i;
+}
+
+
+console.log(sum + sum2 - sum3)
 
 
 
